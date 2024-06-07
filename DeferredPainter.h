@@ -11,7 +11,7 @@ class [MODULE EXPORT HERE] UDeferredPainter : public UContentWidget
 	GENERATED_BODY()
 
 public:
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool bEnableDeferPaint = false;
 	
 protected:
